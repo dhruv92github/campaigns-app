@@ -1,0 +1,5 @@
+export { default as calender } from './calendar.png'
+export { default as priceImage } from './Price.png'
+export { default as file } from './file.png'
+export { default as statistics } from './statistics-report.png'
+export { default as bitmap } from './Bitmap.png' 

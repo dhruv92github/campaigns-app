@@ -1,0 +1,60 @@
+$light-text: rgb(143, 143, 150);
+.table-container {
+  box-shadow: 2px 3px 12px rgb(220, 220, 226);
+  margin-bottom: 20px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  &#bitmap {
+    height: 50px;
+    width: 50px;
+  }
+}
+.action-items {
+  display: flex;
+  justify-content: space-between;
+}
+.campaign-details {
+  display: flex;
+  line-height: 12px;
+  
+}
+.price-modal {
+  padding: 20px;
+  .pricing-details {
+    display: flex;
+    justify-content: space-between;
+    .left-titles {
+      color: $light-text;
+    }
+  }
+}
+
+.btn-close {
+  margin: auto;
+  padding: 10px 14px;
+  font-weight: bold;
+  border: 2px solid black;
+  display: flex;
+}
+.btn.btn-link {
+   
+    color: $light-text;
+    text-decoration: none;
+   
+}
+.secondary-text {
+  color: $light-text;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 2px;
+}
+.calender{
+  cursor: pointer;
+}
+.date-picker{
+  display: none;
+  cursor: pointer;
+}
