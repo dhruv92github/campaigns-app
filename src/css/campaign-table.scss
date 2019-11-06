@@ -16,12 +16,14 @@ img {
 .action-items {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   min-width: 200px;
 }
 .campaign-details {
   display: flex;
   line-height: 12px;
   min-width: $td-min-width;
+ 
   
 }
 .price-modal {
