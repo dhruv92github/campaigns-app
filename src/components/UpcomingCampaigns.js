@@ -28,7 +28,10 @@ componentDidMount() {
       const {data}=this.state;
     return (
       <div>
-       <CampaignTable data={data} />
+        {
+          (data.length>0)?(<CampaignTable data={data} />):<p>No Campaings Found!!</p>
+        }
+       
       </div>
     );
   }

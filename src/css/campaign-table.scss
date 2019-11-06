@@ -1,4 +1,5 @@
 $light-text: rgb(143, 143, 150);
+$td-min-width:100px;
 .table-container {
   box-shadow: 2px 3px 12px rgb(220, 220, 226);
   margin-bottom: 20px;
@@ -15,10 +16,12 @@ img {
 .action-items {
   display: flex;
   justify-content: space-between;
+  min-width: 200px;
 }
 .campaign-details {
   display: flex;
   line-height: 12px;
+  min-width: $td-min-width;
   
 }
 .price-modal {
@@ -49,7 +52,7 @@ img {
   color: $light-text;
   font-style: italic;
   font-size: 14px;
-  line-height: 2px;
+  
 }
 .calender{
   cursor: pointer;
@@ -57,4 +60,29 @@ img {
 .date-picker{
   display: none;
   cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  *{
+    font-size: 10px;
+  }
+  .secondary-text{
+    font-size: 9px;
+  }
+  img {
+    height: 15px;
+    width: 15px;
+    &#bitmap {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+.pricing{
+  // border: 1px solid black;
+  display: flex;
+  align-items: center;
+  min-width: $td-min-width;
+}
+td{
+  min-width: $td-min-width;
 }

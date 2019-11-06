@@ -74,11 +74,14 @@ export default function CampaignTable(props) {
                   </div>
                 </td>
                 <td>
+                  <div className="pricing">
                   <img src={priceImage} alt="priceImage" />
-                  &nbsp;
+                 
                   <Button variant="link" onClick={() => setModal(true)}>
                     View Pricing
                   </Button>
+                  </div>
+                  
                 </td>
                 <td>
                   <div className="action-items">

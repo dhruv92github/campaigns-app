@@ -9,3 +9,9 @@
 hr{
     margin-top: 0%;
 }
+
+@media screen and (max-width: 992px) {
+    .page-title{
+        font-size: 36px;
+    }
+}
